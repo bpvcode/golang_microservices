@@ -7,7 +7,8 @@ Implementation setps:
 **1:**
 
 - Create project structure folder according clean architechture design pattern;
-  - **Domain** - INTERACTS WITH REPOSITORY, USECASE and CONTROLLER
+  - **Domain** - Responsible for structure data models and dto's(request and response)
+    - INTERACTS WITH REPOSITORY, USECASE and CONTROLLER
   - **Repository** - Responsible for doing operation in database
     - INTERACTS WITH USECASE
   - **UseCase** - Responsible for business logic
